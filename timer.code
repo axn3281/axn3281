@@ -1,0 +1,6 @@
+
+import time
+seconds=int(input("How many seconds for your timer"))
+for i in range(seconds):
+        print(str(seconds - i) + " seconds left")
+        time.sleep(1)
